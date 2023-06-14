@@ -12,8 +12,8 @@ def add_point():
 
 def draw_points():
     start = 0
-    if(len(points) > 50):
-        start = len(points) - 50
+    if(len(points) > 10):
+        start = len(points) - 10
         points.remove(points[start -1])
         colors.remove(colors[start -1])
     for i in range(0, len(points)):
